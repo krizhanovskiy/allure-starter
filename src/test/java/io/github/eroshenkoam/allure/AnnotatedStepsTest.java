@@ -19,7 +19,7 @@ public class AnnotatedStepsTest {
     public void testIssueSearch2() {
         steps.openMainPage();
         steps.searchForRepository("eroshenkoam/allure-example2");
-        steps.goToRepository("eroshenkoam/allure-example2");
+//        steps.goToRepository("eroshenkoam/allure-example2");
 //        steps.openIssueTab();
 //        steps.shouldSeeIssueWithNumber(68);
     }
