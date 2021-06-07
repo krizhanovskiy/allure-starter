@@ -16,6 +16,6 @@ public class TabIssueSteps {
 
     @Step("Check issue with number {issueNumber}")
     public void checkIssueWithNumberOnPage(String issueNumber){
-        $(withText("#" + issueNumber)).should(Condition.exist);
+        $(withText("#" + issueNumber)).should(Condition.visible);
     }
 }

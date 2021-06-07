@@ -23,7 +23,7 @@ public class CheckIssueLambdaTests {
         });
 
         step("Check issue with number ", () ->{
-            $(withText("#" + issueNumber)).should(Condition.exist);
+            $(withText("#" + issueNumber)).should(Condition.visible);
         });
     }
 

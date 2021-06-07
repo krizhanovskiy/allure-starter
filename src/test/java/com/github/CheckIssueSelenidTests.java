@@ -18,7 +18,7 @@ public class CheckIssueSelenidTests {
 
 
         open(url);
-        $(withText("#" + issueNumber)).should(Condition.exist);
+        $(withText("#" + issueNumber)).should(Condition.visible);
     }
 
 }
